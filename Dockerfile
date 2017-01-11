@@ -1,7 +1,7 @@
-FROM openjdk:{}-alpine
+FROM openjdk:8-alpine
 MAINTAINER amaya <mail@sapphire.in.net>
 
-ENV SBT_VERSION="{}"
+ENV SBT_VERSION="0.13.13"
 ENV SBT_HOME="/usr/local/sbt"
 ENV PATH="${PATH}:${SBT_HOME}/bin"
 
