@@ -9,7 +9,5 @@ docker run -it -v ~/.ivy2/:/root/.ivy2/ -v ${your app dir}:/app/ amaya382/sbt:${
 ***Highly recommend using mounting ivy2 cache***
 
 ## Supported versions
-* `0.13.13-jdk8`
-* `0.13.13-jdk9`
-* `1.0.0-M4-jdk8`
-* `1.0.0-M4-jdk9`
+
+See [branches](https://github.com/amaya382/docker-sbt/branches/all)
